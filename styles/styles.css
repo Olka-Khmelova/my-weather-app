@@ -1,0 +1,127 @@
+h {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #212529;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  
+  hr {
+    margin: 8px 0px;
+  }
+  .main-container {
+    font-family: "Roboto", sans-serif;
+    background-image: url("images/blue-sky.jpg");
+    max-width: 950px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    padding-bottom: 0px;
+  }
+  .left-side-container {
+    min-width: 450px;
+  }
+  .details-weather-container {
+    padding: 70px 20px 0px 0px;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  .list {
+    list-style: none;
+    margin: 0 uato;
+    padding: 0 auto;
+  }
+  .current-city {
+    text-align: left;
+    font-weight: 700;
+    padding: 25px 0px 0px 0px;
+  }
+  .current-temperature {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .header-list {
+    margin: 10px 22px 18px 22px;
+  }
+  .header-item {
+    display: inline-block;
+    margin: 15px 20px 0px;
+    color: #ffffff;
+  }
+  .units {
+    position: relative;
+    top: -9px;
+    font-size: 18px;
+  }
+  .tempterature-unit {
+    color: inherit;
+    text-align: left;
+  }
+  .current-weather {
+    min-width: 180px;
+  }
+  .city-form {
+    padding: 0px 0px 0px 35px;
+    min-width: 415px;
+  }
+  
+  .weather-emoji {
+    font-size: 120px;
+  }
+  .weather-descript {
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .feels-temperature {
+    font-size: 20px;
+    text-align: center;
+  }
+  /* .feels-temperature-accent {
+    color: #ffffff;
+  } */
+  .weather-item {
+    display: inline-block;
+    margin: 10px 18px;
+    line-height: 1.5;
+    font-weight: 20px;
+  }
+  .cart-heading {
+    font-size: 16px;
+    text-align: center;
+  }
+  .card-descr {
+    font-size: 14px;
+    text-align: center;
+  }
+  .card-emoji,
+  .weather-item {
+    text-align: center;
+  }
+  .future-weather-card {
+    min-width: 70px;
+  }
+  .today-table {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .footer-item {
+    display: block;
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 8px;
+  }
+  .footer-list {
+    margin: 10px 0px;
+    padding: 0px;
+    max-height: 20px;
+  }
+  
