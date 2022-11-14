@@ -11,7 +11,7 @@ h {
   }
   .main-container {
     font-family: "Roboto", sans-serif;
-    background-image: url("images/blue-sky.jpg");
+    background-image: url("/images/blue-sky.jpg");
     max-width: 950px;
     min-width: 500px;
     margin: 0 auto;
