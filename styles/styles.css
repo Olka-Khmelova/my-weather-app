@@ -42,7 +42,7 @@ h {
   }
   .current-temperature {
     text-align: center;
-    margin-top: 10px;
+    margin: 10px 0px 0px;
     font-size: 28px;
     font-weight: 700;
   }
@@ -111,17 +111,19 @@ h {
     background-color: #ffffff;
     border-radius: 10px;
   }
-  .footer-item {
-    display: block;
-    float: right;
-    margin-right: 20px;
-    font-size: 12px;
-    font-style: italic;
-    margin-top: 8px;
+  footer{
+    font-family: "Roboto", sans-serif;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
   }
-  .footer-list {
-    margin: 10px 0px;
-    padding: 0px;
-    max-height: 20px;
+  .footer-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+    font-size: 12px;
+  }
+  .footer-link:hover{
+    text-decoration: underline;
   }
   
