@@ -11,7 +11,6 @@ h {
   }
   .main-container {
     font-family: "Roboto", sans-serif;
-    background-image: url("/images/blue-sky.jpg");
     max-width: 950px;
     min-width: 500px;
     margin: 0 auto;
@@ -29,6 +28,7 @@ h {
   
   .link {
     text-decoration: none;
+    cursor: default;
   }
   .list {
     list-style: none;
@@ -52,36 +52,41 @@ h {
   .header-item {
     display: inline-block;
     margin: 15px 20px 0px;
-    color: #ffffff;
+    color: #70757a;
   }
   .units {
     position: relative;
     top: -9px;
     font-size: 18px;
   }
-  .tempterature-unit {
-    color: inherit;
-    text-align: left;
-  }
+
   .current-weather {
     min-width: 180px;
+  }
+  .units .active{
+    color: #000;
   }
   .city-form {
     padding: 0px 0px 0px 35px;
     min-width: 415px;
   }
-  
-  .weather-emoji {
-    font-size: 120px;
+  .weather-emoji{
+    width: 150px;
   }
+
   .weather-descript {
     font-size: 22px;
     text-align: center;
+    color: #70757a;
+  }
+  .weather-descript::first-letter{
+    text-transform: capitalize;
   }
   
   .feels-temperature {
     font-size: 20px;
     text-align: center;
+    color: #70757a;
   }
   /* .feels-temperature-accent {
     color: #ffffff;
@@ -109,6 +114,8 @@ h {
   }
   .today-table {
     background-color: #ffffff;
+    border-collapse: unset;
+    border: 1px solid rgba(0, 0, 0, 0.158);;
     border-radius: 10px;
   }
   footer{
