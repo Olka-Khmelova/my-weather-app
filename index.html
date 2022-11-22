@@ -60,20 +60,24 @@
           </form>
           <div class="row current-weather-container">
             <div class="col-auto">
-              <div class="weather-emoji">☁️</div>
+              <div >
+                <img src="#" alt="weather emoji" id="icon" class="weather-emoji">
+              </div>
             </div>
             <div class="col-auto current-weather">
               <h1 class="current-city" id="display-city"></h1>
               <h2 class="current-temperature">
                 <span id="current-temperature"></span>
                 <span class="tempterute-unit units">
-                  <a href="#" class="link tempterature-unit" id="celsius-link"
-                    >°C</a
-                  >
-                  |
                   <a
                     href="#"
-                    class="link tempterature-unit"
+                    class="tempterature-unit link active"
+                    id="celsius-link"
+                    >°C</a>
+                    |
+                  <a
+                    href="#"
+                    class=" tempterature-unit link"
                     id="fahrenheit-link"
                     >°F</a
                   >
@@ -85,7 +89,7 @@
                   class="feels-temperature-accent"
                   id="feels-temperature"
                 ></span
-                >°C
+                >
               </p>
               <hr />
               <p class="weather-descript" id="weather-description"></p>
@@ -235,7 +239,7 @@
             >
           </li>
           <li class="footer-item">
-            <a href="https://github.com/Olka-Khmelova/my-weather-app" class="footer-link link">My GitHub repository</a>
+            <a href="https://github.com/Olka-Khmelova/my-weather-app" target ="_blank" class="footer-link link">My GitHub repository</a>
         </li>
         </ul>
       </footer>
