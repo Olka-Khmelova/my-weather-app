@@ -37,7 +37,7 @@ function showWeather(response) {
   displayTemperature.innerHTML = Math.round(celsiusTemperature);
 
   let displayFeelsTemperature = document.querySelector("#feels-temperature");
-  displayFeelsTemperature.innerHTML = Math.round(feelsTemperature);
+  displayFeelsTemperature.innerHTML = `${Math.round(feelsTemperature)} °C`;
 
   let weatherDescr = document.querySelector("#weather-description");
   weatherDescr.innerHTML = response.data.weather[0].main;
